@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Divinegift Base Calculator</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="calc">
+  <h1>Divinegift Base Calculator</h1>
+  <div class="bases">
+    <div><label for="from">Input base</label><select id="from"></select></div>
+    <button id="swap" aria-label="Swap bases">⇄</button>
+    <div><label for="to">Result base</label><select id="to"></select></div>
+  </div>
+  <div class="screen">
+    <div id="expr"></div>
+    <div id="result">0</div>
+    <div id="note"></div>
+    <div id="err"></div>
+    <div class="all" id="all"></div>
+  </div>
+  <div id="keys"></div>
+  <footer>Built by Divinegift</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
